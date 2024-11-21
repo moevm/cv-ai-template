@@ -3,7 +3,7 @@ services:
   cv_pkg:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     environment:
       DISPLAY: $DISPLAY
     volumes:
